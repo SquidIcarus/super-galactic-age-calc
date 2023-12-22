@@ -1,7 +1,7 @@
 {
-  "name": "ENTER-PROJECT-NAME",
+  "name": "super-galactic-age-calc",
   "version": "1.0.0",
-  "description": "",
+  "description": "a calculator out of this world",
   "main": "index.js",
   "scripts": {
     "build": "webpack --mode=development",
@@ -10,7 +10,7 @@
     "test": "jest --coverage"
   },
   "keywords": [],
-  "author": "ENTER-AUTHOR-NAME",
+  "author": "Squid Icarus",
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "^7.22.5",

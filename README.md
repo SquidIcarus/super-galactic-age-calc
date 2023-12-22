@@ -1,8 +1,9 @@
-# (Application Name)
+# Super Galactic Age Calculator
+## Test Driven Development and Environments with JavaScript Code Review 5
 
-#### (Brief Description of Application)
+#### A calculator that is out of this world!
 
-#### By (Your Name Here)
+#### By Landon Leadford
 
 ## Technologies Used
 
@@ -12,18 +13,13 @@
 * Jest
 * Babel
 
-## Description
+## You might know how old you are on Earth, but do you know how old you are on Mars, or on Venus? This program is here to help you know if you are old enough to enter that new cocktail bar on Jupiter!
 
 ## Setup/Installation Requirements
 
-* Update README.md for current project.
-* Enter the project name and author in both .json files.
-* DON'T FORGET TO UPDATE LICENSE AT THE TURNING OF THE YEAR!!!
-* Install all packages: $ npm install
-* Build Project using: $ npm run build
-* Lint JS files in the src dir with: $ npm run lint
-* Run tests with Jest using $ npm run test
-* ERASE THIS SECTION AFTER INSTALLATION
+* 
+* 
+* 
 
 ## Known Bugs
 
