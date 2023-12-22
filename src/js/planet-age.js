@@ -3,4 +3,11 @@ export default class EarthHuman {
         this.humanName = humanName;
         this.earthlingBirthYear = earthlingBirthYear;
     }
+
+    getEarthAge() {
+
+    }
+
 }
+
+
