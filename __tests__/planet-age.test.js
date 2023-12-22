@@ -7,4 +7,12 @@ describe('EarthHuman', () => {
         expect(earthling.humanName).toBe("Zim");
         expect(earthling.earthlingBirthYear).toEqual(1985);
     })
+
+    describe('getEarthAge', () => {
+        test('should calculate earth age based on earthlingBirthYear', () => {
+            earthling.getEarthAge();
+            expect(earthling.earthlingBirthYear).toEqual(22);
+        })
+    })
+
 })
