@@ -6,6 +6,7 @@ export default class EarthHuman {
     }
 
     getEarthAge() {
-
+        const currentYear = new Date().getFullYear();
+        return currentYear - this.earthlingBirthYear;
     }
 }
