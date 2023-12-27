@@ -1,4 +1,4 @@
-import EarthHuman from '../src/js/planet-age.js';
+import EarthHuman from '../src/js/earth-age.js';
 
 describe('EarthHuman', () => {
 
