@@ -8,7 +8,4 @@ export default class EarthHuman {
     getEarthAge() {
 
     }
-
 }
-
-
