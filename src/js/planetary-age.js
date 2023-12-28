@@ -11,5 +11,5 @@ export function marsAge(earthAge) {
 }
 
 export function jupiterAge(earthAge) {
-    // return parseFloat((earthAge / 11.86).toFixed(2));
+    return parseFloat((earthAge / 11.86).toFixed(2));
 }
