@@ -7,5 +7,5 @@ export function venusAge(earthAge) {
 }
 
 export function marsAge(earthAge) {
-
+    return parseFloat((earthAge / 1.88).toFixed(2))
 }
