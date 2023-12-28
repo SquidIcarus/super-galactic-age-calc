@@ -5,3 +5,7 @@ export function mercuryAge(earthAge) {
 export function venusAge(earthAge) {
     return parseFloat((earthAge / 0.62).toFixed(2))
 }
+
+export function marsAge(earthAge) {
+
+}
