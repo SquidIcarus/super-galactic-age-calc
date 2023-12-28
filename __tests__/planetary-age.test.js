@@ -1,4 +1,4 @@
-import { mercuryAge, venusAge, marsAge } from '../src/js/planetary-age.js';
+import { mercuryAge, venusAge, marsAge, jupiterAge } from '../src/js/planetary-age.js';
 import EarthHuman from '../src/js/earth-age.js';
 
 describe('planetAge', () => {
@@ -19,6 +19,12 @@ describe('planetAge', () => {
         const earthlingAge = new EarthHuman("Zim", 2001);
         const marsAgeResult = marsAge(earthlingAge.getEarthAge());
         expect(marsAgeResult).toEqual(11.70);
+    })
+
+    test('should calculate age on Jupiter based on EarthHuman earthAge', () => {
+        const earthlingAge = new EarthHuman("Zim", 2001);
+        const jupiterAgeResult = jupiterAge(earthlingAge.getEarthAge());
+        expect(jupiterAgeResult).toEqual(1.85);
     })
 
 })
