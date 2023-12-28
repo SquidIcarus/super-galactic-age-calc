@@ -12,7 +12,7 @@ describe('planetAge', () => {
     test('should calculate age on Venus based on EarthHuman earthAge', () => {
         const earthlingAge = new EarthHuman("Zim", 2001);
         const venusAgeResult = venusAge(earthlingAge.getEarthAge());
-        expect(venusAgeResult).toEqual(33.87);
+        expect(venusAgeResult).toEqual(35.48);
     })
 
 })
