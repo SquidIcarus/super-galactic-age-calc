@@ -9,4 +9,9 @@ export default class EarthHuman {
         const currentYear = new Date().getFullYear();
         return currentYear - this.earthlingBirthYear;
     }
+
+    yearsPassed() {
+
+    }
+
 }
