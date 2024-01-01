@@ -19,16 +19,5 @@ describe('EarthHuman', () => {
             expect(earthAge).toEqual(expectedAge);
         })
     })
-
-    describe('yearsPassed', () => {
-
-        test('should calculate how many years have passed since a past birth year', () => {
-            const human = new EarthHuman("Zim", 2001, 22);
-            const results = human.yearsPassed(18);
-            const expectedEarthYears = 4;
-            const expectedMercuryYears = parseFloat((expectedEarthYears / 0.24).toFixed(2));
-        })
-    })
 });
-
 
