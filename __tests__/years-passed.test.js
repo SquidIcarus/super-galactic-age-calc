@@ -1,10 +1,10 @@
-import { earthYearsPassed } from '../src/js/years-passed';
+import { birthdayAge } from '../src/js/years-passed';
 
-describe('earthYearsPassed', () => {
+describe('birthdayAge', () => {
 
-    test('should calculate how many years have passed since given birthday age', () => {
-        const currentAge = 22;
-        const birthdayAge = 21;
-        expect(earthYearsPassed(currentAge, birthdayAge)).toEqual(1);
+    test('should calculate how many years have passed on Earth since given birthday age', () => {
+        const currentEarthAge = 22;
+        const yearsPassed = birthdayAge(currentEarthAge, 21);
+        expect(yearsPassed).toEqual(1);
     })
 })

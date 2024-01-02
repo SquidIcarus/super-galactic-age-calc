@@ -1,3 +1,3 @@
-export function earthYearsPassed() {
+export function birthdayAge() {
 
 }
