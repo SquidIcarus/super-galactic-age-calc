@@ -3,10 +3,10 @@ import EarthHuman from '../src/js/earth-age.js';
 describe('EarthHuman', () => {
 
     test('should instantiate the human with name and birth year', () => {
-        const earthling = new EarthHuman("Zim", 2001, 22);
+        const earthling = new EarthHuman("Zim", 2001, 23);
         expect(earthling.humanName).toBe("Zim");
         expect(earthling.earthlingBirthYear).toEqual(2001);
-        expect(earthling.earthAge).toEqual(22);
+        expect(earthling.earthAge).toEqual(23);
     })
 
     describe('getEarthAge', () => {
