@@ -17,14 +17,17 @@
 
 ## Setup/Installation Requirements
 
-* 
-* 
-* 
+* Go to https://github.com/SquidIcarus/super-galactic-age-calc to see/clone code. 
+
+* Enter name and birth year
+* Calculator will display your age on Earth as well as what it would be on Mercury, Venus, Mars and Jupiter.
+* Enter a previous age and calculator will tell you how many years have passed on each planet since that date.
+Enter a future age and galactic calculator will tell you how many years until that age on each planet.
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* Still needs user interface
+
 
 ## License
 [Copyright © 2023 Landon Leadford](LICENSE.txt)
