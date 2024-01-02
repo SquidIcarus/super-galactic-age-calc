@@ -7,3 +7,15 @@ export function mercuryYearsSince(currentAge, pastAge) {
     return parseFloat((earthYrsPassed / 0.24).toFixed(2));
 
 }
+
+export function venusYearsSince(currentAge, pastAge) {
+
+}
+
+export function marsYearsSince(currentAge, pastAge) {
+
+}
+
+export function jupiterYearsSince(currentAge, pastAge) {
+
+}
