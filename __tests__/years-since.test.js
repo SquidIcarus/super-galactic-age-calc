@@ -1,11 +1,16 @@
-import { yearsSince } from '../src/js/years-since.js';
+import { earthYearsSince } from '../src/js/years-since.js';
 
 describe('yearsSince', () => {
-    test('should calculate the years passed on earth', () => {
-        const currentAge = 23;
-        const pastAge = 21;
-        const result = yearsSince(currentAge, pastAge);
-        expect(result).toEqual(2);
+    let currentAge, pastAge;
 
+    beforeEach(() => {
+        currentAge = 23;
+        pastAge = 21;
+    });
+
+    test('should calculate years passed on Earth based on chosen past age', () => {
+        const result = earthYearsSince(currentAge, pastAge);
+        expect(result).toEqual(2)
     })
+
 })

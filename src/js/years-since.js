@@ -1,4 +1,3 @@
-export function yearsSince(currentAge, pastAge) {
-    const earthYearsPassed = currentAge - pastAge;
-    return earthYearsPassed;
+export function earthYearsSince(currentAge, pastAge) {
+    return currentAge - pastAge;
 }
