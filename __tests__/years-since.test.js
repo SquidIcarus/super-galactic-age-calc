@@ -1,4 +1,4 @@
-import { earthYearsSince } from '../src/js/years-since.js';
+import { earthYearsSince, mercuryYearsSince } from '../src/js/years-since.js';
 
 describe('yearsSince', () => {
     let currentAge, pastAge;
@@ -11,6 +11,11 @@ describe('yearsSince', () => {
     test('should calculate years passed on Earth based on chosen past age', () => {
         const result = earthYearsSince(currentAge, pastAge);
         expect(result).toEqual(2)
-    })
+    });
+
+    test('should calculate the years passed on Mercury based on chosedn past age', () => {
+        const result = mercuryYearsSince(currentAge, pastAge);
+        expect(result).toEqual(8.33)
+    });
 
 })
